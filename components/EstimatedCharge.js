@@ -3,7 +3,7 @@ import React from "react";
 export default function EstimatedCharge() {
   return (
     <div className="container border border-tertiary rounded-sm mt-12  mb-12 ">
-      <div className="grid grid-cols-2 ">
+      <div className="grid lg:grid-cols-2 ">
         <div className="flex flex-col px-16 py-6">
           <p className="text-medium text-tertiary font-medium text-2xl">
             Product Weight
@@ -26,7 +26,7 @@ export default function EstimatedCharge() {
             Chittagong, Bandarban, Station Road
           </p>
         </div>
-        <div className="flex flex-col px-16 py-6 bg-blue-200">
+        <div className="flex flex-col px-16 py-6 bg-blue-100">
           <h2 className="text-secondary font-bold mt-12"> Total Price</h2>
           <p className="text-primary font-bold mt-4 text-2xl"> Tk- 350</p>
           <p className="text-secondary text-lg  mt-8">Charges Include:</p>

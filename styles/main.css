@@ -1,0 +1,31 @@
+.Dropdown-control {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  border: 0px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #333;
+  cursor: default;
+  outline: none;
+}
+.dropdown-menu {
+  padding-right: 4rem;
+}
+/* <svg
+className="mt-4"
+width="538"
+height="4"
+viewBox="0 0 538 4"
+fill="none"
+xmlns="http://www.w3.org/2000/svg"
+>
+<line
+  x1="0.865234"
+  y1="2"
+  x2="537.135"
+  y2="2"
+  stroke="#0047FF"
+  stroke-width="1"
+/>
+</svg> */

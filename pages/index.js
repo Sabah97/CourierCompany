@@ -33,13 +33,7 @@ export default function Home() {
         </svg>
       </div>
       <EstimatedCharge />
-      <p className="text-secondary text-lg text-center mb-12">
-        Check our{" "}
-        <span className="text-tertiary font-bold cursor-pointer">
-          detailed list
-        </span>{" "}
-        for more info
-      </p>
+
       <DetailsModal />
     </div>
   );

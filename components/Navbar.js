@@ -28,9 +28,9 @@ export default function Navbar() {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <line y1="3" x2="50" y2="3" stroke="#65ccb8" stroke-width="6" />
-              <line y1="43" x2="50" y2="43" stroke="#606060" stroke-width="6" />
-              <line y1="23" x2="50" y2="23" stroke="#65ccb8" stroke-width="6" />
+              <line y1="43" x2="50" y2="43" stroke="#0047FF" stroke-width="6" />
+              <line y1="3" x2="50" y2="3" stroke="#000000" stroke-width="6" />
+              <line y1="23" x2="50" y2="23" stroke="#000000" stroke-width="6" />
             </svg>
           </button>
         </div>
