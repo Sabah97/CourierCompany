@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import DeliveryEstimator from "../components/DeliveryEstimator";
 import EstimatedCharge from "../components/EstimatedCharge";
 import DetailsModal from "../components/DetailsModal";
+import ContactUs from "../components/ContactUs";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <Navbar />
       <LandingPage />
       <DeliveryEstimator />
-      <div className="flex flex-col items-center">
+      {/* <div className="flex flex-col items-center">
         <h1 className="text-tertiary text-center"> Estimated Charge</h1>
         <svg
           className="mt-4 "
@@ -31,8 +32,8 @@ export default function Home() {
             stroke-width="1"
           />
         </svg>
-      </div>
-      <EstimatedCharge />
+      </div> */}
+      {/* <EstimatedCharge /> */}
 
       <DetailsModal />
     </div>

@@ -21,24 +21,13 @@ const DetailsModal = ({}) => {
   const [modalIsOpen, setIsOpen] = React.useState(false);
   const [discountModalIsOpen, setDiscountModalIsOpen] = React.useState(false);
 
-  function openModal() {
-    setIsOpen(true);
-  }
-  function openDiscountModal() {
-    setDiscountModalIsOpen(true);
-  }
+  const openModal = () => setIsOpen(true);
 
-  function afterOpenModal() {
-    // references are now sync'd and can be accessed.
-    // subtitle.style.color = "#f00";
-  }
+  const openDiscountModal = () => setDiscountModalIsOpen(true);
+  const closeModal = () => setIsOpen(false);
+  const closeDiscountModal = () => setDiscountModalIsOpen(false);
+  const afterOpenModal = () => {};
 
-  function closeModal() {
-    setIsOpen(false);
-  }
-  function closeDiscountModal() {
-    setDiscountModalIsOpen(false);
-  }
   return (
     <div>
       <p className="text-secondary text-lg text-center mb-12">
@@ -96,6 +85,10 @@ const DetailsModal = ({}) => {
               <span className="text-tertiary font-bold">100Tk </span>- Weight
               4-6kg
             </p>
+            <p className="text-black text-lg mt-2">
+              <span className="text-tertiary font-bold">140Tk </span>- Weight
+              over 6kg
+            </p>
           </div>
           <div className="flex flex-col md:mt-0 mt-4">
             <h2 className="text-primary text-2xl">Outside Dhaka</h2>
@@ -107,6 +100,10 @@ const DetailsModal = ({}) => {
             <p className="text-black text-lg mt-2">
               <span className="text-tertiary font-bold">140Tk </span>- Weight
               4-6kg
+            </p>
+            <p className="text-black text-lg mt-2">
+              <span className="text-tertiary font-bold">180Tk </span>- Weight
+              over 6kg
             </p>
           </div>
         </div>
@@ -157,7 +154,7 @@ const DetailsModal = ({}) => {
               2. <span className="text-tertiary font-bold">DhakarBahire </span>
               to get 30 taka discount in deliveries outside Dhaka{" "}
               <span className="text-tertiary font-bold">
-                Valid till March'22{" "}
+                Valid till January'22{" "}
               </span>
             </p>
           </div>
