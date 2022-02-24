@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Button from "../components/Button";
+import { height, width } from "tailwindcss/defaultTheme";
 
 export default function LandingPage() {
   return (
@@ -18,7 +20,7 @@ export default function LandingPage() {
             <Button title="Contact Us" />
           </next-link>
           <div className="mt-32 flex flex-row">
-            <a href="/">
+            <Link href="/">
               <svg
                 className="mr-16"
                 width="26"
@@ -32,8 +34,8 @@ export default function LandingPage() {
                   fill="#ffffff"
                 />
               </svg>
-            </a>
-            <a href="/">
+            </Link>
+            <Link href="/">
               <svg
                 className="mr-16"
                 width="26"
@@ -47,8 +49,8 @@ export default function LandingPage() {
                   fill="#ffffff"
                 />
               </svg>
-            </a>
-            <a href="/">
+            </Link>
+            <Link href="/">
               <svg
                 width="26"
                 height="27"
@@ -61,11 +63,11 @@ export default function LandingPage() {
                   fill="#ffffff"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="mt-48">
-          <img className="" src="landingPageImg.jpeg" />
+          <img src="/landingPageImg.jpeg" />
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 md:mt-24 container">

@@ -29,7 +29,7 @@ export default function Home() {
             x2="537.135"
             y2="2"
             stroke="#0047FF"
-            stroke-width="1"
+            strokeWidth="1"
           />
         </svg>
       </div> */}

@@ -12,7 +12,7 @@ const ContactUs = ({ title, img, bgColor, placeholderBg }) => {
         Contact Us
       </h2>
       <div className="grid lg:grid-cols-2 justify-items-center gap-12 mt-6 mb-20 container">
-        <img className="mt-48 w-11/12" src={img} />
+        {/* <Image className="mt-48 w-11/12" src={img} /> */}
         <div className="flex flex-col lg:w-full mt-16 w-9/12">
           <h2 className="text-secondary font-bold leading-normal text-4xl">
             Contact us if you need any assistance

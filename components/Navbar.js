@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -11,9 +11,9 @@ export default function Navbar() {
     <div className="sticky z-10 lg:prose-lg top-0 flex items-center bg-white justify-around p-6  ">
       <div className="w-full flex-grow flex sm:items-center sm:w-auto  justify-between">
         <div className="flex flex-row justify-start">
-          <a href="/">
-            <img className=" w-7/12" src="logo1.png" />
-          </a>
+          <Link href="/">
+            <img className="w-9/12" src="/logo1.png" />
+          </Link>
         </div>
         <div className="outline-none select-none buttonClass">
           <button
@@ -28,10 +28,10 @@ export default function Navbar() {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <line y1="43" x2="50" y2="43" stroke="#000000" stroke-width="6" />
+              <line y1="43" x2="50" y2="43" stroke="#000000" strokeWidth="6" />
 
-              <line y1="23" x2="50" y2="23" stroke="#0047FF" stroke-width="6" />
-              <line y1="3" x2="50" y2="3" stroke="#000000" stroke-width="6" />
+              <line y1="23" x2="50" y2="23" stroke="#0047FF" strokeWidth="6" />
+              <line y1="3" x2="50" y2="3" stroke="#000000" strokeWidth="6" />
             </svg>
           </button>
         </div>
@@ -47,13 +47,13 @@ export default function Navbar() {
             id="navbar-sm"
             className=" grid lg:grid-cols-2 px-4 lg:gap-12 items-center lg:ml-auto "
           >
-            <a href="/">
+            <Link href="/">
               <p className="text-secondary text-lg font-bold pt-2">Home</p>
-            </a>
+            </Link>
 
-            <a href="/">
+            <Link href="/">
               <p className="text-secondary text-lg font-bold pt-2">Service</p>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
