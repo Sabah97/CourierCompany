@@ -1,11 +1,11 @@
 export default function Button({ data, title }) {
   return (
     <div>
-      <button class="rounded-xl px-4 py-2 mt-12 bg-tertiary">
-        <div class="flex flex-row mt-1">
-          <span class="text-white font-bold">{title}</span>
+      <button className="rounded-xl px-4 py-2 mt-12 bg-tertiary">
+        <div className="flex flex-row mt-1">
+          <span className="text-white font-bold">{title}</span>
           <svg
-            class="ml-2"
+            className="ml-2"
             width="24"
             height="28"
             viewBox="0 0 24 28"

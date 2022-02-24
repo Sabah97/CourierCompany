@@ -5,22 +5,22 @@ import Button from "../components/Button";
 
 export default function LandingPage() {
   return (
-    <div class="pb-16 bg-black ">
-      <div class="grid md:grid-cols-2 grid-cols-1  container  gap-12 md:mb-16">
-        <div class="flex flex-col w-8/12 mt-56 justify-center">
-          <h3 class="text-primary text-4xl tracking-wide font-bold">
+    <div className="pb-16 bg-black ">
+      <div className="grid md:grid-cols-2 grid-cols-1  container  gap-12 md:mb-16">
+        <div className="flex flex-col w-8/12 mt-56 justify-center">
+          <h3 className="text-primary text-4xl tracking-wide font-bold">
             Adding Speed to your Deliveries
           </h3>
-          <p class="text-xl leading-6 mt-6 text-white">
+          <p className="text-xl leading-6 mt-6 text-white">
             Anytime, anywhere and on time, this is what our service mean.
           </p>
           <next-link to="">
             <Button title="Contact Us" />
           </next-link>
-          <div class="mt-32 flex flex-row">
+          <div className="mt-32 flex flex-row">
             <a href="/">
               <svg
-                class="mr-16"
+                className="mr-16"
                 width="26"
                 height="27"
                 viewBox="0 0 26 27"
@@ -35,7 +35,7 @@ export default function LandingPage() {
             </a>
             <a href="/">
               <svg
-                class="mr-16"
+                className="mr-16"
                 width="26"
                 height="27"
                 viewBox="0 0 26 27"
@@ -64,18 +64,20 @@ export default function LandingPage() {
             </a>
           </div>
         </div>
-        <div class="mt-48">
-          <img class="" src="landingPageImg.jpeg" />
+        <div className="mt-48">
+          <img className="" src="landingPageImg.jpeg" />
         </div>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 md:mt-24 container">
-        <h2 class="text-primary text-4xl mt-6">Your vision, We delivered</h2>
-        <div class="flex flex-row md:justify-end">
-          <h1 class="text-primary mt-6 text-6xl font-bold leading-6 tracking-wide">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 md:mt-24 container">
+        <h2 className="text-primary text-4xl mt-6">
+          Your vision, We delivered
+        </h2>
+        <div className="flex flex-row md:justify-end">
+          <h1 className="text-primary mt-6 text-6xl font-bold leading-6 tracking-wide">
             12 +
           </h1>
 
-          <h2 class="text-tertiary font-bold text-3xl ml-4">
+          <h2 className="text-tertiary font-bold text-3xl ml-4">
             Years of <br />
             Service
           </h2>

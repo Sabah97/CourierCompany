@@ -8,16 +8,16 @@ export default function Navbar() {
   const buttonClass = toggled ? "toggled" : "";
 
   return (
-    <div class="sticky z-10 lg:prose-lg top-0 flex items-center bg-white justify-around p-6  ">
-      <div class="w-full flex-grow flex sm:items-center sm:w-auto  justify-between">
+    <div className="sticky z-10 lg:prose-lg top-0 flex items-center bg-white justify-around p-6  ">
+      <div className="w-full flex-grow flex sm:items-center sm:w-auto  justify-between">
         <div className="flex flex-row justify-start">
           <a href="/">
-            <img class=" w-7/12" src="logo1.png" />
+            <img className=" w-7/12" src="logo1.png" />
           </a>
         </div>
         <div className="outline-none select-none buttonClass">
           <button
-            class="outline-none select-none justify-between text-purple-100 inline-flex p-3  rounded lg:hidden "
+            className="outline-none select-none justify-between text-purple-100 inline-flex p-3  rounded lg:hidden "
             id="menu-toggled"
             onClick={() => setToggled((toggle) => !toggle)}
           >
@@ -36,7 +36,7 @@ export default function Navbar() {
           </button>
         </div>
         <div
-          class={
+          className={
             toggled
               ? " top-nav lg:inline-flex lg:flex-grow lg:w-auto fixed w-3/4 top-0 left-0 h-full bg-white py-3 z-30 "
               : "hidden top-nav w-full lg:inline-flex lg:flex-grow lg:w-auto"
@@ -45,7 +45,7 @@ export default function Navbar() {
         >
           <div
             id="navbar-sm"
-            class=" grid lg:grid-cols-2 px-4 lg:gap-12 items-center lg:ml-auto "
+            className=" grid lg:grid-cols-2 px-4 lg:gap-12 items-center lg:ml-auto "
           >
             <a href="/">
               <p className="text-secondary text-lg font-bold pt-2">Home</p>
@@ -58,7 +58,7 @@ export default function Navbar() {
         </div>
       </div>
       <div
-        class={
+        className={
           toggled ? "w-full h-full bg-black opacity-50 fixed top-0 left-0" : ""
         }
         onClick={() => setToggled((toggle) => !toggle)}
